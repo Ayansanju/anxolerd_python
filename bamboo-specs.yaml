@@ -1,12 +1,12 @@
 plan:
-  project-key: YOUR_PROJECT_KEY
-  key: YOUR_PLAN_KEY
+  project-key: ANX
+  key: PYT
   name: Security Scans
 
 variables:
   CLIENT_ID: '${bamboo.CLIENT_ID}'
   CLIENT_SECRET: '${bamboo.CLIENT_SECRET}'
-  APPLICATION_ID: 'YOUR_APPLICATION_ID'
+  APPLICATION_ID: '67445a94043fa1dc91b0db4b'
 
 stages:
   - Security Scans:
